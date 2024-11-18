@@ -1,0 +1,180 @@
+/* General Styles */
+body {
+    font-family: 'Georgia', serif; /* Classic serif font for elegance */
+    line-height: 1.6; /* Improved readability */
+    margin: 0;
+    padding: 0;
+    background-color: #f9f7f2; /* Soft light beige background for warmth */
+    color: #4a3c30; /* Dark brown text for a warm, earthy feel */
+}
+
+/* Section Styles */
+section {
+    background-color: #ffffff; /* White background for sections */
+    border-radius: 16px; /* More pronounced rounded corners */
+    padding: 25px; /* Increased padding for spaciousness */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+    margin: 25px 0; /* More space between sections */
+    border: 2px solid #d1a76c; /* Goldish border for richness */
+}
+
+/* Headings */
+h2 {
+    font-family: 'Times New Roman', serif; /* Elegant font for headings */
+    color: #8c6b3a; /* Rich gold color for headings */
+    text-align: center; /* Centered headings for emphasis */
+    margin-bottom: 20px; /* Increased space below headings */
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.6); /* Soft shadow for depth */
+}
+
+h1 {
+    padding: 1.5rem;
+}
+
+/* Lists and Items */
+ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding from the list */
+}
+
+ul li {
+    padding: 12px; /* Increased padding for better touch target */
+    border-bottom: 1px solid #d1a76c; /* Decorative line between items */
+}
+
+ul li:last-child {
+    border-bottom: none; /* Remove border from last item */
+}
+
+/* Buttons and Inputs */
+button,
+input,
+select {
+    width: calc(100% - 30px); /* Full width minus padding and margin adjustments */
+    padding: 12px; /* Increased padding inside inputs/buttons */
+    margin-top: 10px; /* Increased space above inputs/buttons */
+    border-radius: 8px; /* Rounded corners for inputs/buttons */
+    border: 1px solid #d1a76c; /* Goldish border for inputs/buttons */
+}
+
+button {
+    background-color: #8c6b3a; /* Rich gold color for buttons */
+    color: white; /* White text color for contrast */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition effects */
+}
+
+button:hover {
+    background-color: #704d28; /* Darker shade on hover for buttons 
+    transform: scale(1.05); /* Slightly enlarge button on hover for emphasis */
+}
+
+/* Sentiment Section Styles*/
+.sentiment {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+/* Footer Styles*/
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #8c6b3a; /* Rich gold footer background */
+    color: white;
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+    button,
+    input,
+    select {
+        width: calc(100% - 20px); /* Adjust width for smaller screens */
+        margin-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px; /* Smaller font size on mobile devices */
+    }
+
+    h2 {
+        font-size: 26px; /* Slightly larger heading size on mobile devices */
+        margin-bottom: 15px;
+    }
+}
+
+header {
+    background-color: #f9c74f;
+    padding: 30px;
+    text-align: center;
+}
+
+main {
+    padding: 25px;
+}
+
+h1, h2 {
+   color:#333;
+   text-shadow:none;
+}
+
+
+#chatContainer {
+   max-width :100% ;
+   margin:auto ;
+   background:white ;
+   border-radius:.5rem ;
+   box-shadow:.2rem .2rem .5rem rgba(0,0,0,.1) ;
+   padding:.5rem
+}
+
+.message { 
+   margin-bottom :1rem ;
+}
+
+.user-message { 
+   text-align:right ; 
+   color:#007bff ; 
+}
+.ai-message { 
+   text-align:left ; 
+   color:#28a745 ; 
+}
+#promptContainer { 
+   display:flex ; 
+}
+.prompt-option { 
+   padding:.5rem ; 
+   border-radius:.5rem ; 
+}
+.prompt-option:hover { 
+}
+select,input[type="text"],button { 
+width :calc(100% - .5rem) ; 
+padding:.5rem ; 
+margin-top:.5rem ; 
+border-radius:.5rem ; 
+
+}
+#console-output { 
+
+border-top:.1rem solid #ccc ; 
+
+padding-top:.5rem ; 
+
+margin-top:.5rem ;
+
+display:none;
+
+}
+#apiKeyInput,#aiSelect { 
+
+width :0 !important ;
+
+height :0 !important ;
+
+visibility:hidden ;
+
+position:absolute ;
+
+top :0;
+
+}

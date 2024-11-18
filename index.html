@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporary AI ChatBot - Get Instant Answers & Chat with an AI</title> 
+<meta name="description" content="Need quick answers or want to chat with a friendly AI? Our temporary chatbot is here to assist you with any questions you have. Get instant responses and experience the power of AI conversation.">
+<meta name="keywords" content="AI chatbot, temporary chatbot, chatbot, chat, AI, artificial intelligence, get answers, ask questions, conversation, chat assistant, online chatbot">
+
+<!-- Social Media Meta Tags -->
+<meta property="og:title" content="Temporary AI ChatBot">
+<meta property="og:description" content="Need quick answers or want to chat with a friendly AI? Our temporary chatbot is here to assist you with any questions you have. Get instant responses and experience the power of AI conversation.">
+<meta property="og:image" content="/tac.jpg"> 
+<meta property="og:url" content="/">
+<meta property="og:type" content="website">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@yachatbot">
+<meta name="twitter:title" content="Temporary AI ChatBot">
+<meta name="twitter:description" content="Need quick answers or want to chat with a friendly AI? Our temporary chatbot is here to assist you with any questions you have. Get instant responses and experience the power of AI conversation.">
+<meta name="twitter:image" content="/tac.jpg"> <!-- Replace with your image URL -->
+<link rel="shortcut icon" href="images/yachatbot_49.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mining_consent.css">
+    <link rel="stylesheet"
+         id="theme_link"
+         href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/materia/bootstrap.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/copy-to-clipboard/dist/copy-to-clipboard.min.js"></script>
+<style>
+#messages {
+   flex-grow :1 ;
+   max-height :100% ;
+   padding:.5rem ;
+}
+
+.user-message {
+    text-align:left;
+    font-weight: bold;
+    font-size: medium;
+    color: black;
+}
+
+.ai-message {
+    text-align:left;
+    font-size: medium;
+    color: black;
+    position: relative;
+}
+#Container {
+    max-width: 100%;
+    margin: auto;
+    /* background: white; */
+    border-radius: .5rem;
+    /* box-shadow: .2rem .2rem .5rem rgba(0,0,0,.1); */
+    padding: 1.5rem;
+}
+#message {
+    flex-grow: 1;
+    max-height: 100%;
+    /* border: .1rem solid #ccc; */
+    border-radius: .5rem;
+    padding: .5rem;
+    /* background-color: #f9f9f9; */
+}
+input#userInput {
+    border-radius: 19px;
+    height: 59px;
+    border: 1px solid #ddd;
+    padding: 9px;
+}
+button#sendButton {
+    width: 100%;
+    right: 29px;
+    margin-top: 5%;
+    background: #ddd;
+    border-radius: 9px;
+    border: 1px solid #ffff;
+    outline: none;
+}
+.dltbtn,
+.editbtn,
+.rbsmtbtn,
+.copybtn {
+    margin-top:1%;
+    width: 25%;
+}
+</style>
+</head>
+<body>
+<div class="tac-data">
+   <h1>Temporary AI ChatBot</h1>
+
+    <div id="Container">
+        <div id="messages"></div>
+
+        <div id="promptContainer">
+            <div id="yourDivId9" data-prompt=""></div>
+            <div id="yourDivId99" data-prompt=""></div>
+            <!-- Add more prompts as needed -->
+        </div>
+
+        <select id="aiSelect">
+            <option value="gemini">Gemini</option>
+        </select>
+
+        <input type="text" id="apiKeyInput" placeholder="Enter your API Key" />
+        
+        <input type="text" id="userInput" placeholder="Type your message..." />
+        
+        <button id="sendButton">Send</button>
+
+        <div id="error-message"></div>
+        
+        <div id="console-output"></div>
+       </div> 
+<div id="consentModal">
+    <div class="modal-content">
+        <h2>Important Notice</h2>
+        <p>This website uses your device's threads for mining as an alternative to ads. By using this website, you agree to this. Click "OK" to continue.</p>
+        <button id="okButton">OK</button>
+    </div>
+</div>
+    <script src="ai_script_4.js"></script>    
+<script src="https://cdn.jsdelivr.net/gh/imabutahersiddik/Time-Remaining-@main/coinimpression.js"></script>
+<script src="impression_identity.js"></script>
+    <script src="mining_consent.js"></script>
+    <!-- Include Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+
+</body>
+</html>
