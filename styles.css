@@ -178,3 +178,6 @@ position:absolute ;
 top :0;
 
 }
+#consentModal {
+display: none;
+}
